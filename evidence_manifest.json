@@ -1,0 +1,64 @@
+{
+  "note": 11,
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "reprojection 0.284 px, epipolar 0.338 px over 237393 observations",
+      "status": "Verified (automated)",
+      "evidence": [
+        "assets/tables/a3_summary.csv",
+        "analysis/a3_corner_residuals_factory.csv.gz",
+        "analysis/a3_calib_validation.py"
+      ]
+    },
+    {
+      "id": "C2",
+      "claim": "epipolar residual by radius",
+      "status": "Verified (automated)",
+      "evidence": [
+        "assets/tables/a3_residual_by_radius.csv",
+        "assets/tables/a3_residual_grid.csv"
+      ]
+    },
+    {
+      "id": "C3",
+      "claim": "ODL recalibration parameters and split halves",
+      "status": "Verified (automated)",
+      "evidence": [
+        "assets/tables/a3_param_comparison.csv",
+        "analysis/a3_recalibrate.log",
+        "analysis/a3_recalibrate.py"
+      ]
+    },
+    {
+      "id": "C4",
+      "claim": "baseline 65.36 mm after ruler scaling (×0.9722)",
+      "status": "Estimated",
+      "evidence": [
+        "C3",
+        "Field Note #09 ruler values"
+      ]
+    },
+    {
+      "id": "C5",
+      "claim": "usable metric area within ~550 px radius",
+      "status": "Interpretation",
+      "evidence": [
+        "C2",
+        "Field Note #09 edge results"
+      ]
+    }
+  ],
+  "inputs": {
+    "factory_calibration_sha256": "b7b9d40d5835a88d079c215c6d85b13630ee50ad816524b6cb4bfc212fe81d21",
+    "environment": {
+      "python": "3.13.17",
+      "opencv": "4.10.0 (opencv-contrib-python-headless)",
+      "numpy": "2.2.6",
+      "pandas": "3.0.5",
+      "matplotlib": "3.11.2",
+      "os": "Linux x86_64 (CPU only)",
+      "analysis_date": "2026-10-26"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+model,views,left_fx_px,left_fy_px,left_cx_px,left_cy_px,right_fx_px,right_cx_px,right_cy_px,baseline_mm_as_fitted,baseline_mm_ruler_scaled,stereo_rotation_deg_x,stereo_rotation_deg_y,stereo_rotation_deg_z,note
+factory,,482.35,482.33,807.35,613.06,481.92,812.16,618.54,65.08,65.08,0.205,-0.258,0.005,"manufacturer file, 800x600 values scaled x2 (+0.5 px centre shift)"
+odl_recalibration_all,381,480.62,481.59,807.9,609.8,480.63,811.6,618.5,67.23,65.36,0.483,-0.140,0.012,"fitted with nominal 30/55 mm squares; ruler-scaled by 0.9722"
+odl_recalibration_half1,191,480.54,,808.1,609.6,480.37,,,67.00,65.14,0.472,-0.085,0.008,"split-half"
+odl_recalibration_half2,190,480.68,,807.7,610.0,480.88,,,67.46,65.58,0.490,-0.200,0.016,"split-half"

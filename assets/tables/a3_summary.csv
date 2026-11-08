@@ -1,0 +1,3 @@
+model,n_points,n_recordings,epi_median_px,epi_p90_px,rep_median_px,rep_p90_px,coverage_u_p0_5,coverage_u_p99_5,coverage_v_p0_5,coverage_v_p99_5
+factory,237393,11,0.3377,1.0798,0.2845,0.5714,107.3948,1511.6996,154.3096,989.584
+odl_recalibration,237393,11,0.5553,1.8506,0.278,0.552,107.3948,1511.6996,154.3096,989.584

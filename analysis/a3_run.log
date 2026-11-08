@@ -1,0 +1,14 @@
+               model  n_points  n_recordings  epi_median_px  epi_p90_px  rep_median_px  rep_p90_px  coverage_u_p0_5  coverage_u_p99_5  coverage_v_p0_5  coverage_v_p99_5
+0            factory    237393            11          0.338       1.080          0.284       0.571          107.395            1511.7           154.31           989.584
+1  odl_recalibration    237393            11          0.555       1.851          0.278       0.552          107.395            1511.7           154.31           989.584
+               model radius_px  n_points  epi_median_px  epi_p90_px  rep_median_px  rep_p90_px
+0            factory     0-200    119784          0.254       0.687          0.277       0.537
+1            factory   200-400     69272          0.347       0.918          0.309       0.611
+2            factory   400-550     25236          0.532       1.219          0.286       0.594
+3            factory   550-700     19716          1.130       2.094          0.251       0.566
+4            factory  700-1000      3385          2.403      32.822          0.262      13.057
+5  odl_recalibration     0-200    119646          0.421       1.095          0.270       0.518
+6  odl_recalibration   200-400     69638          0.516       1.370          0.299       0.584
+7  odl_recalibration   400-550     25056          0.998       1.850          0.286       0.587
+8  odl_recalibration   550-700     19666          2.291       3.547          0.249       0.557
+9  odl_recalibration  700-1000      3387          4.279      30.196          0.273      13.759
